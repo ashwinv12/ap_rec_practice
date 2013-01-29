@@ -49,12 +49,16 @@ public class factorial {
 	 * @return	the factorial of n
 	 */
 	public static int iterativeFactorial(int n) {
-		
-		return 0; // dummy return so file compiles, replace when writing method
+		int answer = 1;
+		for (int i = n;i>0;i--) {
+			answer *=i;
+		}
+
+		return answer; 
 	}
 	
 	/**
-	 * recursiveFactorial
+	 * recursiveFactorialss
 	 * 		recursively computes the factorial of n
 	 * 
 	 * @param n - the number to find the factorial of. must be non-negative.
