@@ -58,7 +58,7 @@ public class factorial {
 	}
 	
 	/**
-	 * recursiveFactorialss
+	 * recursiveFactorial
 	 * 		recursively computes the factorial of n
 	 * 
 	 * @param n - the number to find the factorial of. must be non-negative.
@@ -72,6 +72,14 @@ public class factorial {
 		return n * recursiveFactorial(n-1);
 	}
 
+	/**
+	 * recursive Sum
+	 * 		recursively computes the sum from n down to one
+	 *
+	 * @param n - the number to find the sum of, that must be positive
+	 *
+	 * @return the sum factorial of n
+	 */
 	private static int recursiveSum(int n) {
 		if (n==1) {
 			return 1;
